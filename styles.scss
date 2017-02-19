@@ -1,0 +1,397 @@
+---
+---
+
+@charset "UTF-8";
+
+.navbar-default,
+a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s
+}
+header,
+header .header-content {
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+body {
+    font-family: 'Hind', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster', serif;
+}
+hr {
+    border-color: #0c7bd6;
+    border-width: 3px;
+    max-width: 50px;
+}
+hr.light {
+    border-color: #fff;
+}
+a {
+    transition: all .35s;
+    color: #0c7bd6;
+}
+a:focus,
+a:hover {
+    color: #0c7bd6;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.text-faded {
+    color: rgba(255, 255, 255, .7)
+}
+section {
+    padding: 100px 0;
+}
+aside {
+    padding: 50px 0;
+}
+.no-padding {
+    padding: 0;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: rgba(34, 34, 34, .05);
+    transition: all .35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #0c7bd6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-default .navbar-header .navbar-brand:hover {
+    color: #0c7bd6;
+}
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: #222;
+    text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #222;
+}
+.navbar-default .nav > li > a:focus:hover,
+.navbar-default .nav > li > a:hover {
+    color: #0c7bd6;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color: #0c7bd6!important;
+    background-color: transparent;
+}
+.navbar-default .nav > li.active > a:focus:hover,
+.navbar-default .nav > li.active > a:hover {
+    background-color: transparent;
+}
+@media (min-width:768px) {
+    .navbar-default {
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, .3)
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255, 255, 255, 1);
+    }
+    .navbar-default .navbar-header .navbar-brand:focus,
+    .navbar-default .navbar-header .navbar-brand:hover {
+        color: #fff;
+    }
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
+        color: rgba(255, 255, 255, 1);
+    }
+    .navbar-default .nav > li > a:focus:hover,
+    .navbar-default .nav > li > a:hover {
+        color: #fff;
+    }
+    .navbar-default.affix {
+        background-color: #fff;
+        border-color: rgba(34, 34, 34, .05);
+    }
+    .navbar-default.affix .navbar-header .navbar-brand {
+        color: #0c7bd6;
+        font-size: 14px;
+    }
+    .navbar-default.affix .navbar-header .navbar-brand:focus,
+    .navbar-default.affix .navbar-header .navbar-brand:hover {
+        color: #0c7bd6;
+    }
+    .navbar-default.affix .nav > li > a,
+    .navbar-default.affix .nav > li > a:focus {
+        color: #222;
+    }
+    .navbar-default.affix .nav > li > a:focus:hover,
+    .navbar-default.affix .nav > li > a:hover {
+        color: #0c7bd6;
+    }
+}
+
+
+
+.navbar-brand.page-scroll {
+    padding-top: 10px;
+}
+
+.marquee {
+    padding-top: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url({{site.baseurl}}/resources/img/marquee.png);
+    min-height: 700px;
+}
+
+.marquee-headline {
+	font-size: 4.2rem;
+	line-height: 1.2;
+	margin: 5px 0 18px 0;
+}
+
+.marquee-headline-secondary {
+	display: inline-block;
+	font-size: 1.8rem;
+}
+
+.marquee-headline-secondary-line {
+	border-bottom: 2px solid black;
+	width: 120px;
+	margin: 0 15px 0 15px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.marquee-headline-secondary-text {
+	float: left;
+  font-weight: 300;
+}
+
+@media (max-width: 450px) {
+	.marquee {
+		min-height: 600px;
+	}
+	.marquee-headline {
+		font-size: 3.8rem;
+	}
+	.marquee-headline-secondary {
+		font-size: 1.7rem;
+	}
+	.marquee-headline-secondary-line {
+		width: 50px;
+	}
+}
+
+
+.section {
+  padding-bottom: 40px;
+}
+.section-header {
+  padding: 20px 0 0px 0;
+  margin-bottom: 8px;
+  line-height: 1.2;
+  font-size: 3.8rem;
+}
+.section-header-underline {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #0c7bd6;
+  width: 50px;
+  border: 1px solid #0c7bd6;
+}
+.our-story-image {
+  height: 400px;
+}
+.our-story-link {
+    color: #ff0b37;
+}
+.our-story-link:hover {
+    font-weight: bold;
+}
+.our-story-link a {
+  text-decoration: none;
+  height: 5px;
+}
+@media (max-width: 400px) {
+  .our-story-image {
+    height: 275px;
+  }
+}
+.img-holder img {
+  display: block;
+  margin: auto;
+  padding: 6px;
+  border: 1px #d3d3d3 solid;
+}
+.accommodations-image-container {
+  margin-bottom: 20px;
+}
+.accommodations-image {
+  height: 300px;
+}
+@media (max-width: 400px) {
+  .accommodations-image {
+    height: 225px;
+  }
+}
+.horizontal-slideshow {
+  padding: 10px 0 10px 0;
+  background-color: rgb(82, 82, 82);
+}
+.accommodations-list {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: -10px;
+}
+.accommodations-name {
+  font-weight: 700;
+}
+#accommodations-map {
+  border: none;
+  padding-top: 40px;
+  height: 350px;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  display:block;
+  border: 1px #d3d3d3 solid;
+}
+.accommodations-map-container {
+  margin-top: 10px;
+}
+.wedding-when-where {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.wedding-when-where img {
+  margin: auto 0;
+}
+.wedding-when-where p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.wedding-when-where-heading {
+  font-family: 'Lobster', serif;
+  font-size: 2.5rem;
+  padding: 8px 0 4px 0;
+}
+.wedding-body {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.wedding-body p {
+  text-align: center;
+}
+.event {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.event-divider {
+  border-bottom: 1px solid rgb(204, 203, 203);
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.event-date {
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 25px;
+}
+@media (max-width:767px) {
+  .event-date {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .event-description {
+    text-align: center;
+  }
+}
+.event-name {
+  color: #0c7bd6;
+  font-weight: bold;
+}
+.park-hyatt-photo img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+#registry {
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // background-size: cover;
+  // -o-background-size: cover;
+  // background-position: center;
+  // background-image: url({{site.baseurl}}/resources/img/registry.png);
+  min-height: 400px;
+}
+.registry-body {
+  // background-color: rgba(240, 239, 239, 1);
+  padding-bottom: 40px;
+}
+.registry-text {
+  text-align: center;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.registry-text p {
+  margin-bottom: 10px;
+}
+.registry-items {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.registry-item {
+  text-align: center;
+}
+.crate-and-barrel {
+  padding-top: 10px;
+}
+@media (max-width:992px) {
+  .crate-and-barrel {
+    margin-bottom: 30px;
+  }
+}
+.light-background {
+  background-color: rgba(#0c7bd6, 0.07);
+}
+.dark-background {
+  background-color: rgb(47, 47, 47);
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(218, 218, 218);
+  font-weight: 300;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}

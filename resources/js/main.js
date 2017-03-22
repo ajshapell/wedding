@@ -84,6 +84,11 @@ var poi = [{
         name: 'Accommodation Option - Hyatt Place Washington DC/Georgetown',
         lat: 38.905684,
         lng: -77.047849
+    },
+    {
+        name: 'Accommodation Option - Hilton Garden Inn',
+        lat: 38.905544,
+        lng: -77.049153
     }
 ]
 

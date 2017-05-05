@@ -366,7 +366,7 @@ aside {
   margin-bottom: 10px;
 }
 .registry-items {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .registry-item {
@@ -377,6 +377,11 @@ aside {
 }
 @media (max-width:992px) {
   .crate-and-barrel {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width:992px) {
+  .amazon {
     margin-bottom: 30px;
   }
 }
